@@ -1,0 +1,26 @@
+{
+  "name": "cypher-rb",
+  "version": "0.0.1",
+  "homepage": "https://github.com/innoq/cypher-rb",
+  "authors": [
+    "Oliver Tigges <oliver.tigges@innoq.com>"
+  ],
+  "description": "Library to use cypher directly from HTML pages to query Neo4j",
+  "main": "lib/cypher-rb.js",
+  "keywords": [
+    "cypher",
+    "neo4j"
+  ],
+  "license": "Apache 2",
+ "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.11.4"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
